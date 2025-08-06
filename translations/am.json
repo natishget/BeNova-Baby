@@ -1,0 +1,145 @@
+{
+  "navigation": {
+    "home": "መነሻ",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን",
+    "joinCommunity": "ማህበረሰብ ይቀላቀሉ"
+  },
+  "hero": {
+    "title": "ለእያንዳንዱ ልጅ ብሩህ መጀመሪያ መገንባት",
+    "subtitle": "ወላጆችን ማብቃት። ልጆችን ማበልጸግ።",
+    "description": "ከ0-5 ዓመት እድሜ ያላቸውን ልጆች እድገትና ልማት የምንደግፍበት በአዲስ አበባ ያለውን ማህበረሰባችንን ይቀላቀሉ።",
+    "exploreMore": "ተጨማሪ ያስሱ",
+    "joinCommunity": "ማህበረሰባችንን ይቀላቀሉ",
+    "agesBadge": "ከ0-5 ዓመት እድገት"
+  },
+  "services": {
+    "title": "ልጅዎ ለመብቃት የሚያስፈልገው ሁሉ",
+    "subtitle": "የእኛ አጠቃላይ መድረክ ለቅድመ ልጅነት እድገት አስፈላጊ የሆኑ ነገሮችን በአንድ ቦታ ያቀርባል።",
+    "educationalToys": {
+      "title": "ትምህርታዊ መጫወቻዎች",
+      "description": "ለትናንሽ ልጆች ደህንነትን በማረጋገጥ ትምህርትንና ፈጠራን የሚያነሳሱ በጥንቃቄ የተዘጋጁ የመጫወቻ ቁሳቁሶች።"
+    },
+    "milestoneTracking": {
+      "title": "የእድገት ደረጃ መከታተል",
+      "description": "ከ0-5 ዓመት ለሆኑ ልጆች በተዘጋጀው አጠቃላይ የክትትል ስርዓታችን የልጅዎን የእድገት ጉዞ ይከታተሉ።"
+    },
+    "expertSessions": {
+      "title": "የባለሙያ ክፍለ ጊዜዎች",
+      "description": "ለኢትዮጵያ ቤተሰቦች የተዘጋጁ የልጅ እድገት ባለሙያዎችና የትምህርት ግብዓቶች።"
+    },
+    "parentSupport": {
+      "title": "የወላጅ ድጋፍ ማህበረሰብ",
+      "description": "ድጋፍ በሚሰጥ፣ ግንዛቤ ባለው የማህበረሰብ አካባቢ ከሌሎች ወላጆችና ተንከባካቢዎች ጋር ይገናኙ።"
+    },
+    "stats": {
+      "families": "የተደገፉ ቤተሰቦች",
+      "milestones": "የተከታተሉ የእድገት ደረጃዎች",
+      "resources": "የባለሙያ ግብዓቶች"
+    }
+  },
+  "callToAction": {
+    "badge": "ተልዕኮአችንን ይቀላቀሉ",
+    "title": "ለልጅዎ ምርጥ መነሻ ለመስጠት ዝግጁ ነዎት?",
+    "description": "የልጃቸውን የእድገት ጉዞ እንድንደግፍ BeNovaBaby ን የሚያምኑ በአዲስ አበባ ያሉ መቶዎችን ቤተሰቦችን ይቀላቀሉ። አብረን፣ ለእያንዳንዱ ልጅ ብሩህ መጀመሪያ መፍጠር እንችላለን።",
+    "getStarted": "ዛሬ ይጀምሩ",
+    "learnMore": "ተጨማሪ ይወቁ"
+  },
+  "about": {
+    "title": "ስለ እኛ",
+    "subtitle": "በኢትዮጵያ ውስጥ ላሉ ልጆች ብሩህ ወደፊት መገንባት፣ አንድ ቤተሰብ በአንድ ጊዜ።",
+    "mission": "በBeNovaBaby፣ የልጅ ህይወት የመጀመሪያ ዓመታት ማን እንደሚሆኑ በመቅረጽ ረገድ ከፍተኛ ሃይል እንዳላቸው እናምናለን። እኛ በአዲስ አበባ፣ ኢትዮጵያ የሚገኝ፣ ከ0–5 ዓመት እድሜ ያላቸውን ልጆች እድገትና ልማት እንዲደግፉ ወላጆችንና ተንከባካቢዎችን ለመርዳት የተприсвячений አላማ ያነሳሳን ድርጅት ነን።",
+    "principle": "ስራችን በአንድ መሪ መርህ ላይ የተመሰረተ ነው፡ እያንዳንዱ ልጅ ጠንካራ፣ የተደገፈ የህይወት መጀመሪያ ይገባዋል።",
+    "offerings": {
+      "milestones": "የእድገት ደረጃ መከታተል",
+      "resources": "በባለሙያ የሚመራ ግብዓቶች",
+      "materials": "በጥንቃቄ የተዘጋጁ የመጫወቻ ቁሳቁሶች",
+      "community": "ጓደኛ የወላጅ ማህበረሰብ"
+    },
+    "together": "አብረን፣ ለእያንዳንዱ ልጅ ብሩህ መጀመሪያ መፍጠር እንችላለን።",
+    "features": {
+      "playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
+      "playDescription": "ትምህርትን አዝናኝና ተፈጥሯዊ የሚያደርጉ አሳታፊ እንቅስቃሴዎች",
+      "parentSupport": "የወላጅ ድጋፍ",
+      "supportDescription": "ለወላጅነት በራስ መተማመን መመሪያና ማህበረሰብ",
+      "development": "የእድገት ክትትል",
+      "developmentDescription": "የተገኘውን እያንዳንዱን የእድገት ደረጃ መከታተልና ማክበር"
+    },
+    "about.title": "የእኛ ታሪክ",
+    "about.subtitle": "በኢትዮጵያ የቅድመ-ልጅነት እድገትን ማጎልበት",
+    "about.mission":
+      "በ BeNovaBaby፣ ተልእኳችን በኢትዮጵያ የቅድመ-ልጅነት እድገትን ሁሉን አቀፍ ድጋፍ መስጠት ነው። እያንዳንዱ ልጅ ጠንካራ እና የተደገፈ ጅምር ይገባዋል ብለን እናምናለን።",
+    "about.principle": "ልጆች እንዲበለጽጉ፣ እንዲማሩ እና ሙሉ አቅማቸው እንዲያድጉ የሚያስችል ምቹ ሁኔታ ለመፍጠር ቁርጠኞች ነን።",
+    "about.offerings.milestones": "የእድገት ምዕራፎች ክትትል",
+    "about.offerings.resources": "የትምህርት ግብዓቶች",
+    "about.offerings.materials": "ጥራት ያላቸው የትምህርት ቁሳቁሶች",
+    "about.offerings.community": "የሚደግፍ ማህበረሰብ",
+    "about.together": "በአንድነት፣ ለኢትዮጵያ ልጆች ብሩህ ተስፋ መገንባት እንችላለን።",
+    "about.features.playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
+    "about.features.playDescription": "ትምህርትን አስደሳች እና ውጤታማ የሚያደርጉ ማራኪ እንቅስቃሴዎች።",
+    "about.features.parentSupport": "የወላጅ ድጋፍ",
+    "about.features.parentDescription": "ወላጆች የልጃቸውን እድገት እንዲደግፉ ለመርዳት መመሪያ እና ግብዓቶች።",
+    "about.features.developmentTracking": "የእድገት ክትትል",
+    "about.features.developmentDescription": "የልጅዎን እድገት ይከታተሉ እና የእድገት ቦታዎችን ይለዩ።"
+  },
+  "contact": {
+    "title": "ያግኙን",
+    "subtitle": "ከእርስዎ መስማት እንወዳለን! ጥያቄዎች፣ አስተያየቶች ወይም ማህበረሰባችንን ስለመቀላቀል ተጨማሪ ለማወቅ ያግኙን።",
+    "form": {
+      "title": "መልዕክት ይላኩልን",
+      "name": "ሙሉ ስም",
+      "email": "የኢሜይል አድራሻ",
+      "message": "መልዕክት",
+      "namePlaceholder": "ሙሉ ስምዎን ያስገቡ",
+      "emailPlaceholder": "የኢሜይል አድራሻዎን ያስገቡ",
+      "messagePlaceholder": "እንዴት ልንረዳዎ እንደምንችል ይንገሩን...",
+      "submit": "መልዕክት ይላኩ"
+    },
+    "info": {
+      "title": "የመገኛ መረጃ",
+      "location": "አድራሻ",
+      "locationDetails": ["አዲስ አበባ፣ ኢትዮጵያ", "በመላው አገር ቤተሰቦችን ማገልገል"],
+      "phone": "ስልክ",
+      "phoneDetails": ["+251 11 XXX XXXX", "ከሰኞ-አርብ 9AM-6PM EAT"],
+      "email": "ኢሜይል",
+      "emailDetails": ["hello@benovababy.com", "support@benovababy.com"],
+      "hours": "የስራ ሰዓታት",
+      "hoursDetails": ["ሰኞ - አርብ: 9AM - 6PM", "ቅዳሜ: 10AM - 4PM"]
+    },
+    "social": {
+      "title": "ይከተሉን",
+      "description": "ስለ ልጅ እድገት ምክሮችና የማህበረሰብ ዝግጅቶች የቅርብ ጊዜ ዝማኔዎችን ለማግኘት ይገናኙ።"
+    },
+    "map": "በአዲስ አበባ ይፈልጉን"
+  },
+  "aboutUs": {
+    "about.title": "የእኛ ታሪክ",
+    "about.subtitle": "በኢትዮጵያ የቅድመ-ልጅነት እድገትን ማጎልበት",
+    "about.mission":
+      "በ BeNovaBaby፣ ተልእኳችን በኢትዮጵያ የቅድመ-ልጅነት እድገትን ሁሉን አቀፍ ድጋፍ መስጠት ነው። እያንዳንዱ ልጅ ጠንካራ እና የተደገፈ ጅምር ይገባዋል ብለን እናምናለን።",
+    "about.principle": "ልጆች እንዲበለጽጉ፣ እንዲማሩ እና ሙሉ አቅማቸው እንዲያድጉ የሚያስችል ምቹ ሁኔታ ለመፍጠር ቁርጠኞች ነን።",
+    "about.offerings.milestones": "የእድገት ምዕራፎች ክትትል",
+    "about.offerings.resources": "የትምህርት ግብዓቶች",
+    "about.offerings.materials": "ጥራት ያላቸው የትምህርት ቁሳቁሶች",
+    "about.offerings.community": "የሚደግፍ ማህበረሰብ",
+    "about.together": "በአንድነት፣ ለኢትዮጵያ ልጆች ብሩህ ተስፋ መገንባት እንችላለን።",
+    "about.features.playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
+    "about.features.playDescription": "ትምህርትን አስደሳች እና ውጤታማ የሚያደርጉ ማራኪ እንቅስቃሴዎች።",
+    "about.features.parentSupport": "የወላጅ ድጋፍ",
+    "about.features.parentDescription": "ወላጆች የልጃቸውን እድገት እንዲደግፉ ለመርዳት መመሪያ እና ግብዓቶች።",
+    "about.features.developmentTracking": "የእድገት ክትትል",
+    "about.features.developmentDescription": "የልጅዎን እድገት ይከታተሉ እና የእድገት ቦታዎችን ይለዩ።"
+  },
+  "footer": {
+    "description": "በኢትዮጵያ ለእያንዳንዱ ልጅ ብሩህ መጀመሪያ መገንባት። በአጠቃላይ የቅድመ ልጅነት እድገት ግብዓቶች አማካኝነት ከ0-5 ዓመት እድሜ ያላቸውን ልጆች ማበልጸግና ወላጆችን ማብቃት።",
+    "madeWith": "በአዲስ አበባ በፍቅር የተሰራ",
+    "quickLinks": "ፈጣን ማገናኛዎች",
+    "contactInfo": "የመገኛ መረጃ",
+    "rights": "መብቱ በህግ የተጠበቀ ነው።",
+    "motto": "እያንዳንዱ ልጅ ጠንካራ፣ የተደገፈ የህይወት መጀመሪያ ይገባዋል።"
+  },
+  "language": {
+    "en": "English",
+    "am": "አማርኛ"
+  }
+}

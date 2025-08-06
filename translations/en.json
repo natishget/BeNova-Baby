@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "joinCommunity": "Join Community"
+  },
+  "hero": {
+    "title": "Building Bright Beginnings for Every Child",
+    "subtitle": "Empowering parents. Enriching children.",
+    "description": "Join our community in Addis Ababa as we support the growth and development of children aged 0–5.",
+    "exploreMore": "Explore More",
+    "joinCommunity": "Join Our Community",
+    "agesBadge": "Ages 0-5 Development"
+  },
+  "services": {
+    "title": "Everything Your Child Needs to Thrive",
+    "subtitle": "Our comprehensive platform brings together the essential elements for early childhood development in one place.",
+    "educationalToys": {
+      "title": "Educational Toys",
+      "description": "Carefully curated play materials that stimulate learning and creativity while ensuring safety for young children."
+    },
+    "milestoneTracking": {
+      "title": "Milestone Tracking",
+      "description": "Monitor your child's development journey with our comprehensive tracking system designed for ages 0-5."
+    },
+    "expertSessions": {
+      "title": "Expert Sessions",
+      "description": "Access to child development experts and educational resources tailored for Ethiopian families."
+    },
+    "parentSupport": {
+      "title": "Parent Support Community",
+      "description": "Connect with other parents and caregivers in a supportive, understanding community environment."
+    },
+    "stats": {
+      "families": "Families Supported",
+      "milestones": "Milestones Tracked",
+      "resources": "Expert Resources"
+    }
+  },
+  "callToAction": {
+    "badge": "Join Our Mission",
+    "title": "Ready to Give Your Child the Best Start?",
+    "description": "Join hundreds of families in Addis Ababa who trust BeNovaBaby to support their child's development journey. Together, we can shape a brighter start for every child.",
+    "getStarted": "Get Started Today",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Building a brighter future for children across Ethiopia, one family at a time.",
+    "mission": "At BeNovaBaby, we believe that the earliest years of a child's life are the most powerful in shaping who they become. We are a purpose-driven company based in Addis Ababa, Ethiopia, committed to helping parents and caregivers support the growth and development of children aged 0–5.",
+    "principle": "Our work is grounded in one guiding principle: Every child deserves a strong, supported start in life.",
+    "offerings": {
+      "milestones": "Milestone tracking",
+      "resources": "Expert-led resources",
+      "materials": "Curated play materials",
+      "community": "A vibrant parent community"
+    },
+    "together": "Together, we can shape a brighter start for every child.",
+    "features": {
+      "playLearning": "Play-Based Learning",
+      "playDescription": "Engaging activities that make learning fun and natural",
+      "parentSupport": "Parent Support",
+      "supportDescription": "Guidance and community for confident parenting",
+      "development": "Development Tracking",
+      "developmentDescription": "Monitor and celebrate every milestone achieved"
+    },
+    "about.title": "Our Story",
+      "about.subtitle": "Empowering Early Childhood Development in Ethiopia",
+      "about.mission":
+        "At BeNovaBaby, our mission is to provide comprehensive support for early childhood development in Ethiopia. We believe that every child deserves a strong, supported start in life.",
+      "about.principle":
+        "We are dedicated to creating a nurturing environment where children can thrive, learn, and grow to their fullest potential.",
+      "about.offerings.milestones": "Developmental Milestones Tracking",
+      "about.offerings.resources": "Educational Resources",
+      "about.offerings.materials": "Quality Learning Materials",
+      "about.offerings.community": "Supportive Community",
+      "about.together": "Together, we can build a brighter future for Ethiopia's children.",
+      "about.features.playLearning": "Play-Based Learning",
+      "about.features.playDescription": "Engaging activities that make learning fun and effective.",
+      "about.features.parentSupport": "Parental Support",
+      "about.features.parentDescription": "Guidance and resources to help parents support their child's development.",
+      "about.features.developmentTracking": "Development Tracking",
+      "about.features.developmentDescription": "Monitor your child's progress and identify areas for growth."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you! Reach out with questions, feedback, or to learn more about joining our community.",
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Message",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email address",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "locationDetails": ["BlueSpace 5th floor - Nile Source Building, Addis Ababa, Ethiopia", "Serving families nationwide"],
+      "phone": "Phone",
+      "phoneDetails": ["+251 968 402771", "Mon-Fri 9AM-6PM EAT"],
+      "email": "Email",
+      "emailDetails": ["info@benovababy.com"],
+      "hours": "Business Hours",
+      "hoursDetails": ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM"]
+    },
+    "social": {
+      "title": "Follow Us",
+      "description": "Stay connected and get the latest updates on child development tips and community events."
+    },
+    "map": "Find us in Addis Ababa"
+  },
+  "aboutUs": {
+      "about.title": "Our Story",
+      "about.subtitle": "Empowering Early Childhood Development in Ethiopia",
+      "about.mission":
+        "At BeNovaBaby, our mission is to provide comprehensive support for early childhood development in Ethiopia. We believe that every child deserves a strong, supported start in life.",
+      "about.principle":
+        "We are dedicated to creating a nurturing environment where children can thrive, learn, and grow to their fullest potential.",
+      "about.offerings.milestones": "Developmental Milestones Tracking",
+      "about.offerings.resources": "Educational Resources",
+      "about.offerings.materials": "Quality Learning Materials",
+      "about.offerings.community": "Supportive Community",
+      "about.together": "Together, we can build a brighter future for Ethiopia's children.",
+      "about.features.playLearning": "Play-Based Learning",
+      "about.features.playDescription": "Engaging activities that make learning fun and effective.",
+      "about.features.parentSupport": "Parental Support",
+      "about.features.parentDescription": "Guidance and resources to help parents support their child's development.",
+      "about.features.developmentTracking": "Development Tracking",
+      "about.features.developmentDescription": "Monitor your child's progress and identify areas for growth."
+  },
+  "footer": {
+    "description": "Building bright beginnings for every child in Ethiopia. Empowering parents and enriching children aged 0-5 through comprehensive early childhood development resources.",
+    "madeWith": "Made with love in Addis Ababa",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "rights": "All rights reserved.",
+    "motto": "Every child deserves a strong, supported start in life."
+  },
+  "language": {
+    "en": "English",
+    "am": "አማርኛ"
+  }
+}
