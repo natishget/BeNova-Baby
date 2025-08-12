@@ -28,7 +28,7 @@ export default function CallToAction() {
                   i === arr.length - 1 ? (
                     <span key={i}>
                       {" "}
-                      <span className="text-white bg-clip-text gradient-bg">
+                      <span className="text-white bg-gradient-to-r from-blue-500 to-blue-700">
                         {word}
                       </span>
                     </span>

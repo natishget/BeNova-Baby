@@ -37,7 +37,7 @@ export default function Hero() {
                   i === 1 ? (
                     <span
                       key={i}
-                      className="text-white bg-clip-text gradient-bg"
+                      className="text-white bg-gradient-to-r from-blue-500 to-blue-700"
                     >
                       {word}{" "}
                     </span>
@@ -82,8 +82,8 @@ export default function Hero() {
               <Image
                 src="/goodStart.jpg?height=600&width=600&text=Happy+Children+Playing"
                 alt="Happy children playing and learning together"
-                width={600}
-                height={600}
+                width={500}
+                height={500}
                 className="rounded-3xl shadow-2xl"
                 priority
               />
