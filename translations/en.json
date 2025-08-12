@@ -3,9 +3,12 @@
     "home": "Home",
     "about": "About Us",
     "contact": "Contact",
-    "joinCommunity": "Join Community"
+    "joinCommunity": "Join Community",
+    "botJoin": "Telegram Bot"
+
   },
   "hero": {
+    "joinBot": "Telegram Bot",
     "title": "Building Bright Beginnings for Every Child",
     "subtitle": "Empowering parents. Enriching children.",
     "description": "Join our community in Addis Ababa as we support the growth and development of children aged 0–5.",

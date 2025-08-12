@@ -21,28 +21,23 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm border-b border-amber-100 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className="bg-transparent relative  backdrop-blur-sm border-b border-amber-100 sticky top-0 z-50 shadow-xl ">
+      <div className="md:max-w-[85%] max-w-[95%] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center md:h-24 h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="relative">
-              <div className="w-10 h-10  flex items-center justify-center">
-                {/* <div className="w-6 h-6 bg-blue-800 rounded-full relative">
-                  <div className="absolute -top-1 -right-1">
-                    <Star className="w-4 h-4 text-amber-400 fill-current animate-twinkle" />
-                  </div>
-                </div> */}
+            <div className="">
+              <div className="md:w-16 md:h-16 w-10 h-10  flex items-center justify-center">
                 <Image
-                  src="/novaLogo.png?height=600&width=600&text=Happy+Children+Playing"
-                  width={60}
-                  height={60}
+                  src="/novaLogo.png?height=900&width=900&text=Happy+Children+Playing"
+                  width={100}
+                  height={100}
                   alt="bonovababy logo"
                 />
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-amber-500">
+              <span className="md:text-xl text-lg font-bold text-amber-500">
                 BeNova Baby
               </span>
               <span className="text-xs text-gray-600 -mt-1">
@@ -52,12 +47,12 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 ">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={` font-medium transition-colors hover:text-blue-600 ${
                   pathname === item.href
                     ? "text-blue-600 border-b-2 border-blue-600 pb-1"
                     : "text-gray-700"
@@ -67,9 +62,17 @@ export default function Navigation() {
               </Link>
             ))}
             <LanguageSwitcher />
-            <Button className="bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-medium px-6">
-              {t("navigation.joinCommunity")}
-            </Button>
+            <a href="https://t.me/NovaKids_Et" target="_blank">
+              <Button className="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-800 hover:to-blue-500 text-white font-medium px-6 transition-all">
+                {t("navigation.joinCommunity")}
+              </Button>
+            </a>
+
+            <a href="https://t.me/novakidsbot" target="_blank">
+              <Button className="bg-gradient-to-r from-amber-400 to-amber-600 hover:from-amber-500 hover:to-amber-300 text-white font-medium px-6 transition-all">
+                {t("navigation.botJoin")}
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -114,9 +117,17 @@ export default function Navigation() {
                   href="https://t.me/NovaKids_Et"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-block text-center bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded"
+                  className="w-full inline-block text-center bg-gradient-to-r from-blue-400 to-blue-700 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded mb-2"
                 >
                   {t("navigation.joinCommunity")}
+                </a>
+                <a
+                  href="https://t.me/novakidsbot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-block text-center bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded"
+                >
+                  {t("navigation.botJoin")}
                 </a>
                 {/* </Button> */}
               </div>
