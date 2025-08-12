@@ -1,44 +1,46 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { createContext, useContext, useState, useEffect } from "react"
+import type React from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
-type Language = "en" | "am"
+type Language = "en" | "am";
 
 interface LanguageContextType {
-  language: Language
-  setLanguage: (lang: Language) => void
-  t: (key: string) => string
+  language: Language;
+  setLanguage: (lang: Language) => void;
+  t: (key: string) => string;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
+const LanguageContext = createContext<LanguageContextType | undefined>(
+  undefined
+);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en")
-  const [isClient, setIsClient] = useState(false)
+  const [language, setLanguage] = useState<Language>("en");
+  const [isClient, setIsClient] = useState(false);
 
   // Set client flag after hydration
   useEffect(() => {
-    setIsClient(true)
-  }, [])
+    setIsClient(true);
+  }, []);
 
   // Load language from localStorage on mount
   useEffect(() => {
     if (isClient) {
-      const savedLanguage = localStorage.getItem("language") as Language
+      const savedLanguage = localStorage.getItem("language") as Language;
       if (savedLanguage && (savedLanguage === "en" || savedLanguage === "am")) {
-        setLanguage(savedLanguage)
+        setLanguage(savedLanguage);
       }
     }
-  }, [isClient])
+  }, [isClient]);
 
   // Save language to localStorage when it changes
   useEffect(() => {
     if (isClient) {
-      localStorage.setItem("language", language)
-      document.documentElement.lang = language
+      localStorage.setItem("language", language);
+      document.documentElement.lang = language;
     }
-  }, [language, isClient])
+  }, [language, isClient]);
 
   const translations = {
     en: {
@@ -47,6 +49,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "nav.about": "About Us",
       "nav.contact": "Contact",
       "nav.joinCommunity": "Join Community",
+      "nav.botJoin": "Telegram Bot",
 
       // Hero Section
       "hero.badge": "Ages 0-5 Development",
@@ -86,23 +89,29 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
       // About Page
       "about.title": "About BeNovaBaby",
-      "about.subtitle": "Building a brighter future for children across Ethiopia, one family at a time.",
+      "about.subtitle":
+        "Building a brighter future for children across Ethiopia, one family at a time.",
       "about.mission.p1":
         "At BeNovaBaby, we believe that the earliest years of a child's life are the most powerful in shaping who they become. We are a purpose-driven company based in Addis Ababa, Ethiopia, committed to helping parents and caregivers support the growth and development of children aged 0–5.",
       "about.mission.principle":
         "Our work is grounded in one guiding principle: Every child deserves a strong, supported start in life.",
-      "about.mission.p2": "That's why we've created a holistic platform that brings together:",
+      "about.mission.p2":
+        "That's why we've created a holistic platform that brings together:",
       "about.mission.milestone": "Milestone tracking",
       "about.mission.expert": "Expert-led resources",
       "about.mission.materials": "Curated play materials",
       "about.mission.community": "A vibrant parent community",
-      "about.mission.conclusion": "Together, we can shape a brighter start for every child.",
+      "about.mission.conclusion":
+        "Together, we can shape a brighter start for every child.",
       "about.playBased.title": "Play-Based Learning",
-      "about.playBased.description": "Engaging activities that make learning fun and natural",
+      "about.playBased.description":
+        "Engaging activities that make learning fun and natural",
       "about.parentSupport.title": "Parent Support",
-      "about.parentSupport.description": "Guidance and community for confident parenting",
+      "about.parentSupport.description":
+        "Guidance and community for confident parenting",
       "about.developmentTracking.title": "Development Tracking",
-      "about.developmentTracking.description": "Monitor and celebrate every milestone achieved",
+      "about.developmentTracking.description":
+        "Monitor and celebrate every milestone achieved",
 
       // Contact Page
       "contact.title": "Get in Touch",
@@ -141,7 +150,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "footer.quickLinks": "Quick Links",
       "footer.contactInfo": "Contact Info",
       "footer.copyright": "BeNovaBaby. All rights reserved.",
-      "footer.tagline": "Every child deserves a strong, supported start in life.",
+      "footer.tagline":
+        "Every child deserves a strong, supported start in life.",
       "footer.privacyPolicy": "Privacy Policy",
 
       // Navigation items
@@ -149,6 +159,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.about": "About Us",
       "navigation.contact": "Contact",
       "navigation.joinCommunity": "Join Community",
+      "navigation.botJoin": "Telegram Bot",
     },
     am: {
       // Navigation
@@ -156,6 +167,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "nav.about": "ስለ እኛ",
       "nav.contact": "ያግኙን",
       "nav.joinCommunity": "ማህበረሰብ ይቀላቀሉ",
+      "nav.botJoin": "ቴሌግራም ቦት",
 
       // Hero Section
       "hero.badge": "ከ0-5 ዓመት ልማት",
@@ -167,15 +179,20 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
       // Services
       "services.title": "ልጅዎ ለማደግ የሚያስፈልገው ሁሉ",
-      "services.subtitle": "የእኛ አጠቃላይ መድረክ የቅድመ ህፃናት ልማት አስፈላጊ ንጥረ ነገሮችን በአንድ ቦታ ያሰባስባል።",
+      "services.subtitle":
+        "የእኛ አጠቃላይ መድረክ የቅድመ ህፃናት ልማት አስፈላጊ ንጥረ ነገሮችን በአንድ ቦታ ያሰባስባል።",
       "services.educationalToys.title": "የትምህርት መጫወቻዎች",
-      "services.educationalToys.description": "ለትናንሽ ልጆች ደህንነትን በማረጋገጥ ትምህርትን እና ፈጠራን የሚያነቃቁ በጥንቃቄ የተመረጡ የመጫወቻ ቁሳቁሶች።",
+      "services.educationalToys.description":
+        "ለትናንሽ ልጆች ደህንነትን በማረጋገጥ ትምህርትን እና ፈጠራን የሚያነቃቁ በጥንቃቄ የተመረጡ የመጫወቻ ቁሳቁሶች።",
       "services.milestoneTracking.title": "የእድገት ደረጃ ክትትል",
-      "services.milestoneTracking.description": "ለ0-5 ዓመት የተነደፈ አጠቃላይ የክትትል ስርዓታችንን በመጠቀም የልጅዎን የእድገት ጉዞ ይከታተሉ።",
+      "services.milestoneTracking.description":
+        "ለ0-5 ዓመት የተነደፈ አጠቃላይ የክትትል ስርዓታችንን በመጠቀም የልጅዎን የእድገት ጉዞ ይከታተሉ።",
       "services.expertSessions.title": "የባለሙያ ክፍለ ጊዜዎች",
-      "services.expertSessions.description": "ለኢትዮጵያ ቤተሰቦች የተዘጋጁ የልጅ ልማት ባለሙያዎች እና የትምህርት ሀብቶች መዳረሻ።",
+      "services.expertSessions.description":
+        "ለኢትዮጵያ ቤተሰቦች የተዘጋጁ የልጅ ልማት ባለሙያዎች እና የትምህርት ሀብቶች መዳረሻ።",
       "services.parentSupport.title": "የወላጆች ድጋፍ ማህበረሰብ",
-      "services.parentSupport.description": "በአጋዥ እና ተረዳዳቢ የማህበረሰብ አካባቢ ውስጥ ከሌሎች ወላጆች እና አሳዳጊዎች ጋር ይገናኙ።",
+      "services.parentSupport.description":
+        "በአጋዥ እና ተረዳዳቢ የማህበረሰብ አካባቢ ውስጥ ከሌሎች ወላጆች እና አሳዳጊዎች ጋር ይገናኙ።",
       "services.stats.families": "የተደገፉ ቤተሰቦች",
       "services.stats.milestones": "የተከታተሉ እድገት ደረጃዎች",
       "services.stats.resources": "የባለሙያ ሀብቶች",
@@ -193,7 +210,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "about.subtitle": "በኢትዮጵያ ውስጥ ለልጆች ብሩህ ወደፊት መገንባት፣ በአንድ ጊዜ አንድ ቤተሰብ።",
       "about.mission.p1":
         "በBeNovaBaby፣ የልጅ ህይወት የመጀመሪያዎቹ ዓመታት ማን እንደሚሆኑ በመቅረጽ ረገድ በጣም ኃይለኛ እንደሆኑ እናምናለን። በአዲስ አበባ፣ ኢትዮጵያ ውስጥ የምንገኝ ዓላማ ተኮር ኩባንያ ነን፣ ወላጆች እና አሳዳጊዎች ከ0-5 ዓመት የሆኑ ልጆችን እድገት እና ልማት እንዲደግፉ ለመርዳት ቆርጠናል።",
-      "about.mission.principle": "ሥራችን የሚመሠረተው በአንድ መሪ መርህ ላይ ነው፡ እያንዳንዱ ልጅ ጠንካራ እና የተደገፈ የህይወት ጅምር ይገባዋል።",
+      "about.mission.principle":
+        "ሥራችን የሚመሠረተው በአንድ መሪ መርህ ላይ ነው፡ እያንዳንዱ ልጅ ጠንካራ እና የተደገፈ የህይወት ጅምር ይገባዋል።",
       "about.mission.p2": "ለዚህም ነው የሚከተሉትን አንድ ላይ የሚያመጣ አጠቃላይ መድረክ የፈጠርነው፡",
       "about.mission.milestone": "የእድገት ደረጃ ክትትል",
       "about.mission.expert": "በባለሙያ የሚመራ ሀብቶች",
@@ -201,15 +219,18 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "about.mission.community": "ህያው የወላጆች ማህበረሰብ",
       "about.mission.conclusion": "በአንድነት ለእያንዳንዱ ልጅ ብሩህ ጅምር መቅረጽ እንችላለን።",
       "about.playBased.title": "በመጫወት ላይ የተመሠረተ ትምህርት",
-      "about.playBased.description": "ትምህርትን አስደሳች እና ተፈጥሯዊ የሚያደርጉ አሳታፊ እንቅስቃሴዎች",
+      "about.playBased.description":
+        "ትምህርትን አስደሳች እና ተፈጥሯዊ የሚያደርጉ አሳታፊ እንቅስቃሴዎች",
       "about.parentSupport.title": "የወላጆች ድጋፍ",
       "about.parentSupport.description": "ለተአማኒ የወላጅነት መመሪያ እና ማህበረሰብ",
       "about.developmentTracking.title": "የእድገት ክትትል",
-      "about.developmentTracking.description": "የተገኘውን እያንዳንዱን እድገት ደረጃ ይከታተሉ እና ያክብሩ",
+      "about.developmentTracking.description":
+        "የተገኘውን እያንዳንዱን እድገት ደረጃ ይከታተሉ እና ያክብሩ",
 
       // Contact Page
       "contact.title": "ያግኙን",
-      "contact.subtitle": "ከእርስዎ መስማት እንወዳለን! ጥያቄዎች፣ አስተያየቶች ወይም ማህበረሰባችንን ስለመቀላቀል ለመማር ያግኙን።",
+      "contact.subtitle":
+        "ከእርስዎ መስማት እንወዳለን! ጥያቄዎች፣ አስተያየቶች ወይም ማህበረሰባችንን ስለመቀላቀል ለመማር ያግኙን።",
       "contact.form.title": "መልእክት ይላኩልን",
       "contact.form.name": "ሙሉ ስም",
       "contact.form.email": "የኢሜይል አድራሻ",
@@ -232,7 +253,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "contact.info.hoursDetails1": "ሰኞ - አርብ፡ 9ሰዓት - 6ሰዓት",
       "contact.info.hoursDetails2": "ቅዳሜ፡ 10ሰዓት - 4ሰዓት",
       "contact.social.title": "ይከተሉን",
-      "contact.social.subtitle": "ተገናኝተው ይቆዩ እና ስለ ልጅ ልማት ምክሮች እና የማህበረሰብ ዝግጅቶች የቅርብ ጊዜ ዝመናዎችን ያግኙ።",
+      "contact.social.subtitle":
+        "ተገናኝተው ይቆዩ እና ስለ ልጅ ልማት ምክሮች እና የማህበረሰብ ዝግጅቶች የቅርብ ጊዜ ዝመናዎችን ያግኙ።",
       "contact.map": "በአዲስ አበባ ያግኙን",
 
       // Footer
@@ -250,20 +272,33 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.about": "ስለ እኛ",
       "navigation.contact": "ያግኙን",
       "navigation.joinCommunity": "ማህበረሰብ ይቀላቀሉ",
+      "navigation.botJoin": "ቴሌግራም ቦት",
     },
-  }
+  };
+
+  type TranslationKeys =
+    | keyof (typeof translations)["en"]
+    | keyof (typeof translations)["am"];
 
   const t = (key: string): string => {
-    return translations[language][key] || translations.en[key] || key
-  }
+    return (
+      translations[language][key as TranslationKeys] ||
+      translations.en[key as TranslationKeys] ||
+      key
+    );
+  };
 
-  return <LanguageContext.Provider value={{ language, setLanguage, t }}>{children}</LanguageContext.Provider>
+  return (
+    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+      {children}
+    </LanguageContext.Provider>
+  );
 }
 
 export function useLanguage() {
-  const context = useContext(LanguageContext)
+  const context = useContext(LanguageContext);
   if (context === undefined) {
-    throw new Error("useLanguage must be used within a LanguageProvider")
+    throw new Error("useLanguage must be used within a LanguageProvider");
   }
-  return context
+  return context;
 }
