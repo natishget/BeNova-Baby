@@ -62,26 +62,36 @@
       "playDescription": "Engaging activities that make learning fun and natural",
       "parentSupport": "Parent Support",
       "supportDescription": "Guidance and community for confident parenting",
+      "parentDescription": "Guidance and resources to help parents support their child's development.",
       "development": "Development Tracking",
-      "developmentDescription": "Monitor and celebrate every milestone achieved"
+      "developmentDescription": "Monitor and celebrate every milestone achieved",
+      "developmentTracking": "Development Tracking"
     },
     "about.title": "Our Story",
-      "about.subtitle": "Empowering Early Childhood Development in Ethiopia",
-      "about.mission":
+    "about.subtitle": "Empowering Early Childhood Development in Ethiopia",
+    "about.mission":
         "At BeNovaBaby, our mission is to provide comprehensive support for early childhood development in Ethiopia. We believe that every child deserves a strong, supported start in life.",
-      "about.principle":
+    "about.principle":
         "We are dedicated to creating a nurturing environment where children can thrive, learn, and grow to their fullest potential.",
-      "about.offerings.milestones": "Developmental Milestones Tracking",
-      "about.offerings.resources": "Educational Resources",
-      "about.offerings.materials": "Quality Learning Materials",
-      "about.offerings.community": "Supportive Community",
-      "about.together": "Together, we can build a brighter future for Ethiopia's children.",
-      "about.features.playLearning": "Play-Based Learning",
-      "about.features.playDescription": "Engaging activities that make learning fun and effective.",
-      "about.features.parentSupport": "Parental Support",
-      "about.features.parentDescription": "Guidance and resources to help parents support their child's development.",
-      "about.features.developmentTracking": "Development Tracking",
-      "about.features.developmentDescription": "Monitor your child's progress and identify areas for growth."
+    "about.offerings.milestones": "Developmental Milestones Tracking",
+    "about.offerings.resources": "Educational Resources",
+    "about.offerings.materials": "Quality Learning Materials",
+    "about.offerings.community": "Supportive Community",
+    "about.together": "Together, we can build a brighter future for Ethiopia's children.",
+    
+    "testimonials":{
+      "firstName": "Dr. Sara Melesse, Pediatrician",
+      "firstTestimony": "BeNova Baby offers expert advice, useful tools, and supportive community. I highly recommend it to parents nurturing their child’s development.",
+      "secondName": "Dr. Henok Tadesse, Child Development Specialist",
+      "secondTestimony": "The platform bridges the gap between clinical advice and everyday parenting. It empowers caregivers with practical insights while keeping the child’s well-being at the center.",
+      "thirdName": "Zoe, Founder of ICan Academy",
+      "thirdTestimony": "BeNova Baby is a valuable extension of what we aim to do in early learning environments. Their tools and expert sessions give parents the confidence and knowledge to support their child’s development beyond the classroom."
+    },
+    "name": {
+      "firstName": "Dr. Sara Melesse, Pediatrician",
+      "secondName": "Dr. Henok Tadesse, Child Development Specialist",
+      "thirdName": "Zoe, Founder of ICan Academy"
+    }
   },
   "contact": {
     "title": "Get in Touch",

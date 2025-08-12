@@ -9,50 +9,6 @@ export default function AboutClientPage() {
   const { language } = useLanguage();
   const t = (key: string) => getTranslation(language, key);
 
-  // const t = (key: string) => {
-  //   const translations = {
-  //     en: {
-  //       "about.title": "Our Story",
-  //       "about.subtitle": "Empowering Early Childhood Development in Ethiopia",
-  //       "about.mission":
-  //         "At BeNovaBaby, our mission is to provide comprehensive support for early childhood development in Ethiopia. We believe that every child deserves a strong, supported start in life.",
-  //       "about.principle":
-  //         "We are dedicated to creating a nurturing environment where children can thrive, learn, and grow to their fullest potential.",
-  //       "about.offerings.milestones": "Developmental Milestones Tracking",
-  //       "about.offerings.resources": "Educational Resources",
-  //       "about.offerings.materials": "Quality Learning Materials",
-  //       "about.offerings.community": "Supportive Community",
-  //       "about.together": "Together, we can build a brighter future for Ethiopia's children.",
-  //       "about.features.playLearning": "Play-Based Learning",
-  //       "about.features.playDescription": "Engaging activities that make learning fun and effective.",
-  //       "about.features.parentSupport": "Parental Support",
-  //       "about.features.parentDescription": "Guidance and resources to help parents support their child's development.",
-  //       "about.features.developmentTracking": "Development Tracking",
-  //       "about.features.developmentDescription": "Monitor your child's progress and identify areas for growth.",
-  //     },
-  //     am: {
-  //       "about.title": "የእኛ ታሪክ",
-  //       "about.subtitle": "በኢትዮጵያ የቅድመ-ልጅነት እድገትን ማጎልበት",
-  //       "about.mission":
-  //         "በ BeNovaBaby፣ ተልእኳችን በኢትዮጵያ የቅድመ-ልጅነት እድገትን ሁሉን አቀፍ ድጋፍ መስጠት ነው። እያንዳንዱ ልጅ ጠንካራ እና የተደገፈ ጅምር ይገባዋል ብለን እናምናለን።",
-  //       "about.principle": "ልጆች እንዲበለጽጉ፣ እንዲማሩ እና ሙሉ አቅማቸው እንዲያድጉ የሚያስችል ምቹ ሁኔታ ለመፍጠር ቁርጠኞች ነን።",
-  //       "about.offerings.milestones": "የእድገት ምዕራፎች ክትትል",
-  //       "about.offerings.resources": "የትምህርት ግብዓቶች",
-  //       "about.offerings.materials": "ጥራት ያላቸው የትምህርት ቁሳቁሶች",
-  //       "about.offerings.community": "የሚደግፍ ማህበረሰብ",
-  //       "about.together": "በአንድነት፣ ለኢትዮጵያ ልጆች ብሩህ ተስፋ መገንባት እንችላለን።",
-  //       "about.features.playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
-  //       "about.features.playDescription": "ትምህርትን አስደሳች እና ውጤታማ የሚያደርጉ ማራኪ እንቅስቃሴዎች።",
-  //       "about.features.parentSupport": "የወላጅ ድጋፍ",
-  //       "about.features.parentDescription": "ወላጆች የልጃቸውን እድገት እንዲደግፉ ለመርዳት መመሪያ እና ግብዓቶች።",
-  //       "about.features.developmentTracking": "የእድገት ክትትል",
-  //       "about.features.developmentDescription": "የልጅዎን እድገት ይከታተሉ እና የእድገት ቦታዎችን ይለዩ።",
-  //     },
-  //   }
-
-  //   return translations[language as keyof typeof translations]?.[key] || key
-  // }
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-blue-50 to-indigo-50">
       {/* Hero Section */}
@@ -62,7 +18,7 @@ export default function AboutClientPage() {
             <Star className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            {t("about.title")} BeNovaBaby
+            {t("about.title")} BeNova Baby
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             {t("about.subtitle")}
@@ -140,12 +96,12 @@ export default function AboutClientPage() {
 
       {/* Visual Elements */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-[85%] mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <Image
-                  src="/placeholder.svg?height=128&width=128&text=Child+Playing"
+                  src="/learning.jpeg?height=128&width=128&text=Child+Playing"
                   alt="Child playing with educational toys"
                   width={128}
                   height={128}
@@ -163,7 +119,7 @@ export default function AboutClientPage() {
             <div className="text-center">
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <Image
-                  src="/placeholder.svg?height=128&width=128&text=Parent+Child"
+                  src="/support.jpeg?height=128&width=128&text=Parent+Child"
                   alt="Parent and child bonding"
                   width={128}
                   height={128}
@@ -181,7 +137,7 @@ export default function AboutClientPage() {
             <div className="text-center">
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <Image
-                  src="/placeholder.svg?height=128&width=128&text=Growth+Chart"
+                  src="/development.jpg?height=128&width=128&text=Growth+Chart"
                   alt="Child development milestones"
                   width={128}
                   height={128}
@@ -195,6 +151,44 @@ export default function AboutClientPage() {
                 {t("about.features.developmentDescription")}
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full flex flex-col justify-center items-center pt-5 pb-16">
+        <h1 className="text-5xl font-bold text-gray-900 mt-16">Testimonials</h1>
+        <p className="text-gray-600 mb-16 mt-3">What people say about us</p>
+        <div className=" flex gap-10 flex-col md:flex-row md: md:flex-wrap justify-center items-center text-lg">
+          <div className="md:w-1/4 w-[85%] flex flex-col items-center justify-center bg-white p-5  rounded-[20px] shadow-xl hover:rounded-[0px] shadow-xl transition-all">
+            <p className="text-center">
+              <span className="text-blue-700 text-2xl">“</span>
+              {t("about.testimonials.firstTestimony")}
+              <span className="text-blue-700 text-2xl">”</span>
+            </p>
+            <h3 className="mt-5 text-blue-700 font-bold text-lg text-center">
+              —{t("about.testimonials.firstName")}
+            </h3>
+          </div>
+          <div className="md:w-1/4 w-[85%] flex flex-col items-center justify-center bg-white p-5  rounded-[20px] hover:rounded-[0px] shadow-xl transition-all ">
+            <p className="text-center">
+              <span className="text-blue-700 text-2xl">“</span>
+              {t("about.testimonials.secondTestimony")}
+              <span className="text-blue-700 text-2xl">”</span>
+            </p>
+            <h3 className="mt-5 text-blue-700 font-bold text-lg text-center">
+              —{t("about.testimonials.secondName")}
+            </h3>
+          </div>
+          <div className="md:w-1/4 w-[85%] flex flex-col items-center justify-center bg-white p-5 rounded-[20px] shadow-xl hover:rounded-[0px] shadow-xl transition-all">
+            <p className="text-center">
+              <span className="text-blue-700 text-2xl">“</span>
+              {t("about.testimonials.thirdTestimony")}
+
+              <span className="text-blue-700 text-2xl">”</span>
+            </p>
+            <h3 className="mt-5 text-blue-700 font-bold text-lg text-center">
+              —{t("about.testimonials.thirdName")}
+            </h3>
           </div>
         </div>
       </section>

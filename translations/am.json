@@ -59,11 +59,13 @@
     "together": "አብረን፣ ለእያንዳንዱ ልጅ ብሩህ መጀመሪያ መፍጠር እንችላለን።",
     "features": {
       "playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
-      "playDescription": "ትምህርትን አዝናኝና ተፈጥሯዊ የሚያደርጉ አሳታፊ እንቅስቃሴዎች",
       "parentSupport": "የወላጅ ድጋፍ",
       "supportDescription": "ለወላጅነት በራስ መተማመን መመሪያና ማህበረሰብ",
+      "parentDescription": "ወላጆች የልጃቸውን እድገት እንዲደግፉ ለመርዳት መመሪያ እና ግብዓቶች።",
+      "playDescription": "ትምህርትን አስደሳች እና ውጤታማ የሚያደርጉ ማራኪ እንቅስቃሴዎች።",
       "development": "የእድገት ክትትል",
-      "developmentDescription": "የተገኘውን እያንዳንዱን የእድገት ደረጃ መከታተልና ማክበር"
+      "developmentDescription": "የተገኘውን እያንዳንዱን የእድገት ደረጃ መከታተልና ማክበር",
+      "developmentTracking": "የእድገት ክትትል"
     },
     "about.title": "የእኛ ታሪክ",
     "about.subtitle": "በኢትዮጵያ የቅድመ-ልጅነት እድገትን ማጎልበት",
@@ -75,12 +77,20 @@
     "about.offerings.materials": "ጥራት ያላቸው የትምህርት ቁሳቁሶች",
     "about.offerings.community": "የሚደግፍ ማህበረሰብ",
     "about.together": "በአንድነት፣ ለኢትዮጵያ ልጆች ብሩህ ተስፋ መገንባት እንችላለን።",
-    "about.features.playLearning": "በጨዋታ ላይ የተመሰረተ ትምህርት",
-    "about.features.playDescription": "ትምህርትን አስደሳች እና ውጤታማ የሚያደርጉ ማራኪ እንቅስቃሴዎች።",
-    "about.features.parentSupport": "የወላጅ ድጋፍ",
-    "about.features.parentDescription": "ወላጆች የልጃቸውን እድገት እንዲደግፉ ለመርዳት መመሪያ እና ግብዓቶች።",
-    "about.features.developmentTracking": "የእድገት ክትትል",
-    "about.features.developmentDescription": "የልጅዎን እድገት ይከታተሉ እና የእድገት ቦታዎችን ይለዩ።"
+    "testimonials":{
+      "firstName": "— ዶክተር ሳራ መለሰ, የሕፃናት ሐኪም",
+      "firstTestimony": "“BeNova Baby የባለሙያ ምክር፣ ጠቃሚ መሳሪያዎችን እና ደጋፊ ማህበረሰቡን ይሰጣል። የልጃቸውን እድገት ለሚያሳድጉ ወላጆች በጣም እመክራለሁ።”",
+      "secondName": "— ዶ/ር ሄኖክ ታደሰ የሕፃናት ልማት ባለሙያ",
+      "secondTestimony": "“መድረኩ በክሊኒካዊ ምክር እና በዕለት ተዕለት አስተዳደግ መካከል ያለውን ክፍተት ያስተካክላል። የልጁን ደህንነት በማዕከሉ ውስጥ በማስቀመጥ ተንከባካቢዎችን በተግባራዊ ግንዛቤዎች ያበረታታል።”",
+      "thirdName": "— ዞኢ፣ የአይካን አካዳሚ መስራች",
+      "thirdTestimony": "“BeNova Baby በቅድመ ትምህርት አከባቢዎች ልናደርገው የምንፈልገው ጠቃሚ ማራዘሚያ ነው። መሳሪያዎቻቸው እና የባለሙያዎች ክፍለ ጊዜ ወላጆች የልጃቸውን እድገት ከክፍል በላይ እንዲደግፉ በራስ መተማመን እና እውቀትን ይሰጣሉ።“"
+    },
+    "name":{
+      "firstName": "ዶክተር ሳራ መለሰ, የሕፃናት ሐኪም",
+      "secondName": "ዶ/ር ሄኖክ ታደሰ የሕፃናት ልማት ባለሙያ",
+      "thirdName": "ዞኢ፣ የአይካን አካዳሚ መስራች"
+
+    }
   },
   "contact": {
     "title": "ያግኙን",
