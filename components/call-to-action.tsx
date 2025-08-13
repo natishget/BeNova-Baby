@@ -28,7 +28,7 @@ export default function CallToAction() {
                   i === arr.length - 1 ? (
                     <span key={i}>
                       {" "}
-                      <span className="text-white bg-gradient-to-r from-blue-500 to-blue-700">
+                      <span className="text-white bg-gradient-to-r from-blue-300 to-blue-400">
                         {word}
                       </span>
                     </span>
@@ -46,14 +46,13 @@ export default function CallToAction() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://t.me/NovaKids_Et">
-                <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  {t("cta.getStarted")}
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
+              <a
+                href="https://t.me/novakidsbot"
+                target="_blank"
+                className="flex justify-center items-center bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold px-8 py-2 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                {t("cta.getStarted")}
+                <ArrowRight className="ml-2 w-5 h-5" />
               </a>
               <Link href="/about">
                 <Button

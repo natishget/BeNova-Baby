@@ -155,7 +155,7 @@ export default function AboutClientPage() {
         </div>
       </section>
 
-      <section className="w-full flex flex-col justify-center items-center pt-5 pb-16">
+      {/* <section className="w-full flex flex-col justify-center items-center pt-5 pb-16">
         <h1 className="text-5xl font-bold text-gray-900 mt-16">Testimonials</h1>
         <p className="text-gray-600 mb-16 mt-3">What people say about us</p>
         <div className=" flex gap-10 flex-col md:flex-row md: md:flex-wrap justify-center items-center text-lg">
@@ -191,7 +191,7 @@ export default function AboutClientPage() {
             </h3>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

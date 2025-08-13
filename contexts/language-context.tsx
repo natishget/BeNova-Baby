@@ -46,7 +46,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     en: {
       // Navigation
       "nav.home": "Home",
-      "nav.about": "About Us",
+      "nav.about": "About",
       "nav.contact": "Contact",
       "nav.joinCommunity": "Join Community",
       "nav.botJoin": "Telegram Bot",
@@ -157,7 +157,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
       // Navigation items
       "navigation.home": "Home",
-      "navigation.about": "About Us",
+      "navigation.about": "About",
       "navigation.contact": "Contact",
       "navigation.joinCommunity": "Join Community",
       "navigation.botJoin": "Telegram Bot",

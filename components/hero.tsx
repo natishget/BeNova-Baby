@@ -37,7 +37,7 @@ export default function Hero() {
                   i === 1 ? (
                     <span
                       key={i}
-                      className="text-white bg-gradient-to-r from-blue-500 to-blue-700"
+                      className="text-white bg-gradient-to-r from-blue-300 to-blue-400"
                     >
                       {word}{" "}
                     </span>

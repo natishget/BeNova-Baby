@@ -4,6 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Blocks, TrendingUp, Users, BookOpen } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
 import { getTranslation } from "@/utils/translations";
+import Testimonials from "./ui/testimonials";
+import InteractiveCarousel from "./ui/interactive_carousel";
 
 export default function Services() {
   const { language } = useLanguage();
@@ -42,7 +44,7 @@ export default function Services() {
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[85%] mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -52,7 +54,7 @@ export default function Services() {
                 i === arr.length - 1 ? (
                   <span key={i}>
                     {" "}
-                    <span className="text-white bg-gradient-to-r from-blue-500 to-blue-700">
+                    <span className="text-white bg-gradient-to-r from-blue-300 to-blue-400">
                       {word}
                     </span>
                   </span>
@@ -94,7 +96,7 @@ export default function Services() {
         </div>
 
         {/* Stats Section */}
-        <div className="mt-20 bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl p-8 md:p-12 text-white">
+        {/* <div className="mt-20 bg-gradient-to-r from-blue-600 to-blue-700 rounded-3xl p-8 md:p-12 text-white">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">500+</div>
@@ -115,7 +117,9 @@ export default function Services() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Testimonials />
+        <InteractiveCarousel />
       </div>
     </section>
   );

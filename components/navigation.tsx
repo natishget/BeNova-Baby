@@ -63,13 +63,13 @@ export default function Navigation() {
             ))}
             <LanguageSwitcher />
             <a href="https://t.me/NovaKids_Et" target="_blank">
-              <Button className="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-800 hover:to-blue-500 text-white font-medium px-6 transition-all">
+              <Button className="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-800 hover:to-blue-500 text-white font-medium px-6 transition-all duration-300">
                 {t("navigation.joinCommunity")}
               </Button>
             </a>
 
             <a href="https://t.me/novakidsbot" target="_blank">
-              <Button className="bg-gradient-to-r from-amber-400 to-amber-600 hover:from-amber-500 hover:to-amber-300 text-white font-medium px-6 transition-all">
+              <Button className="bg-gradient-to-r from-blue-400 to-blue-700 hover:from-blue-800 hover:to-blue-500 text-white font-medium px-6 transition-all duration-300">
                 {t("navigation.botJoin")}
               </Button>
             </a>
@@ -117,7 +117,7 @@ export default function Navigation() {
                   href="https://t.me/NovaKids_Et"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-block text-center bg-gradient-to-r from-blue-400 to-blue-700 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded mb-2"
+                  className="w-full inline-block text-center bg-gradient-to-r from-blue-400 to-blue-700 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded mb-2 transition-all duration-300"
                 >
                   {t("navigation.joinCommunity")}
                 </a>
@@ -125,7 +125,7 @@ export default function Navigation() {
                   href="https://t.me/novakidsbot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-block text-center bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded"
+                  className="w-full inline-block text-center bg-gradient-to-r from-blue-400 to-blue-700 hover:from-amber-500 hover:to-yellow-600 text-white font-medium py-2 px-4 rounded mb-2 transition-all duration-300"
                 >
                   {t("navigation.botJoin")}
                 </a>
