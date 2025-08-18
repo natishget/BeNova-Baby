@@ -1,6 +1,6 @@
 "use client";
 
-import { Star, Heart, Users, Target } from "lucide-react";
+import { Star, Heart, Users, Target, Eye, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/language-context";
 import { getTranslation } from "@/utils/translations";
@@ -31,54 +31,50 @@ export default function AboutClientPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-amber-100">
             <div className="prose prose-lg max-w-none">
+              <h1 className="font-semibold text-lg">{t("about.WhoWeAre")}</h1>
               <p className="text-gray-700 leading-relaxed mb-6">
                 {t("about.mission")}
               </p>
 
               <div className="bg-gradient-to-r from-blue-50 to-amber-50 rounded-2xl p-6 my-8 border-l-4 border-amber-400">
-                <p className="text-gray-800 font-medium text-lg italic">
+                {/* <p className="text-gray-800 font-medium text-lg italic">
                   {t("about.principle")}
-                </p>
+                </p> */}
+
+                <h3 className="font-semibold text-lg my-3">
+                  <Target className="w-6 h-6 text-blue-600" />
+                  {t("about.ourMis")}
+                </h3>
+                <p className=" text-lg">{t("about.ourMission")}</p>
               </div>
 
-              <p className="text-gray-700 leading-relaxed mb-6">
-                {t("about.principle")}
-              </p>
+              <div className="bg-gradient-to-r from-blue-50 to-amber-50 rounded-2xl p-6 my-8 border-r-4 border-blue-500">
+                {/* <p className="text-gray-800 font-medium text-lg italic">
+                  {t("about.principle")}
+                </p> */}
 
-              <div className="grid md:grid-cols-2 gap-6 my-8">
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Target className="w-4 h-4 text-blue-600" />
-                  </div>
-                  <span className="text-gray-700 font-medium">
-                    {t("about.offerings.milestones")}
-                  </span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center">
-                    <Star className="w-4 h-4 text-amber-600" />
-                  </div>
-                  <span className="text-gray-700 font-medium">
-                    {t("about.offerings.resources")}
-                  </span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
-                    <Heart className="w-4 h-4 text-green-600" />
-                  </div>
-                  <span className="text-gray-700 font-medium">
-                    {t("about.offerings.materials")}
-                  </span>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="flex-shrink-0 w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
-                    <Users className="w-4 h-4 text-purple-600" />
-                  </div>
-                  <span className="text-gray-700 font-medium">
-                    {t("about.offerings.community")}
-                  </span>
-                </div>
+                <h3 className="font-semibold text-lg my-3">
+                  <Eye className="w-6 h-6 text-amber-600" />
+                  {t("about.ourVis")}
+                </h3>
+                <p className=" text-lg">{t("about.ourVision")}</p>
               </div>
+
+              <h1 className="font-semibold text-lg">{t("about.values")}</h1>
+              <ul className="ml-5 mb-3">
+                <li className="flex  items-center">
+                  <ChevronRight className="w-6 h-6 text-blue-700" />
+                  {t("about.ourValues1")}
+                </li>
+                <li className="flex  items-center">
+                  <ChevronRight className="w-6 h-6 text-blue-700" />
+                  {t("about.ourValues2")}
+                </li>
+                <li className="flex  items-center">
+                  <ChevronRight className="w-6 h-6 text-blue-700" />
+                  {t("about.ourValues3")}
+                </li>
+              </ul>
 
               <p className="text-gray-700 leading-relaxed">
                 — all in one place.

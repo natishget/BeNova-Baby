@@ -50,7 +50,16 @@
   "about": {
     "title": "About",
     "subtitle": "Building a brighter future for children across Ethiopia, one family at a time.",
-    "mission": "At BeNovaBaby, we believe that the earliest years of a child's life are the most powerful in shaping who they become. We are a purpose-driven company based in Addis Ababa, Ethiopia, committed to helping parents and caregivers support the growth and development of children aged 0–5.",
+    "WhoWeAre": "Who We Are?",
+    "ourMis": "Our Mission",
+    "ourVis": "Our Vision",
+    "values": "What We Value?",
+    "ourValues1": "Trust – We prioritize credible, research-backed information.",
+    "ourValues2": "Community – Parents learn best when they learn together.",
+    "ourValues3": "Growth – Just like the children we serve, we’re always learning and evolving.",
+    "ourMission": "BeNova Baby equips Ethiopian parents with the tools, knowledge, and confidence to support their child’s development during the most formative years of life. By offering milestone tracking, curated play kits, expert guidance, and a supportive community, we turn everyday parenting moments into powerful learning opportunities.",
+    "ourVision": "To create a world where every child in East Africa is nurtured to reach their full developmental potential—through empowered, informed, and joyful parenting.",
+    "mission": "Benova Baby is a parent-centered platform dedicated to supporting the healthy growth and development of children from birth to age 5. We bring together credible information, milestone tracking tools, and a warm, engaged community to help parents feel confident in their child’s early years.",
     "principle": "Our work is grounded in one guiding principle: Every child deserves a strong, supported start in life.",
     "offerings": {
       "milestones": "Milestone tracking",
