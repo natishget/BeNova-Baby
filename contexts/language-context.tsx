@@ -48,6 +48,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "nav.home": "Home",
       "nav.about": "About",
       "nav.contact": "Contact",
+      "nav.blog": "Blog",
       "nav.joinCommunity": "Join Community",
       "nav.botJoin": "Telegram Bot",
 
@@ -159,6 +160,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.home": "Home",
       "navigation.about": "About",
       "navigation.contact": "Contact",
+      "navigation.blog": "Blog",
       "navigation.joinCommunity": "Join Community",
       "navigation.botJoin": "Telegram Bot",
     },
@@ -167,6 +169,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "nav.home": "መነሻ",
       "nav.about": "ስለ እኛ",
       "nav.contact": "ያግኙን",
+      "nav.blog": "ብሎግ",
       "nav.joinCommunity": "ማህበረሰብ ይቀላቀሉ",
       "nav.botJoin": "ቴሌግራም ቦት",
 
@@ -272,6 +275,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.home": "መነሻ",
       "navigation.about": "ስለ እኛ",
       "navigation.contact": "ያግኙን",
+      "navigation.blog": "ብሎግ",
       "navigation.joinCommunity": "ማህበረሰብ ይቀላቀሉ",
       "navigation.botJoin": "ቴሌግራም ቦት",
     },
