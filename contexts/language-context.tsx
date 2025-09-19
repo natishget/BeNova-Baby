@@ -163,6 +163,47 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.blog": "Blog",
       "navigation.joinCommunity": "Join Community",
       "navigation.botJoin": "Telegram Bot",
+
+      //blog items
+      "blog.ourBlogO": "𝓞",
+      "blog.ourBlogB": "𝓑",
+      "blog.ourBlogUR": "ur",
+      "blog.ourBlogLOG": "logs",
+      "blog.blogTitle1":
+        "Why Nova Matters: Supporting Early Childhood Development in Ethiopia",
+      "blog.blogDescription1":
+        "How Nova is transforming early childhood development in Ethiopia by equipping caregivers with the right tools, insight, and support.",
+      "blog.blogTitle2":
+        "Celebrating Every Child's Journey: Autism Awareness Workshop",
+      "blog.blogDescription2":
+        "A powerful day of learning, love, and connection in honor of Autism Acceptance Month hosted by Nova Kids and partners.",
+      "blogOne.blogHeader":
+        "Why Nova Matters: Supporting Early Childhood Development in Ethiopia",
+      "blogOne.blogTitle1": "Introduction",
+      "blogOne.blogDescription1":
+        "Early Childhood Development (ECD) lays the foundation for lifelong health, learning, and well-being...",
+      "blogOne.blogTitle2": "The Urgent Need for Nova",
+      "blogOne.blogDescription2":
+        " The early years of a child’s life are crucial. Science shows that a child’s brain develops most rapidly...",
+      "blogOne.blogTitle3": "Key Challenges Nova Addresses",
+      "blogOne.blogDescriptionPoint":
+        "Lack of Access to Developmental Tools: Many families don’t have access to age-appropriate toys, books, or guidance.",
+      "blogOne.blogDescriptionPoint1":
+        "Low Awareness of Developmental Milestones: Caregivers often lack the knowledge to track progress and detect early delays.",
+      "blogOne.blogDescriptionPoint2":
+        "Limited Training Opportunities: Accessible, culturally relevant training is in short supply.",
+      "blogOne.blogDescriptionPoint3":
+        "Isolation: Many caregivers face these challenges alone without support networks.",
+      "blogOne.blogTitle4": "Why Nova is Different",
+      "blogOne.blogDescription4":
+        "While national policies and programs exist, Nova complements these efforts using tech and local insight to reach families otherwise overlooked.",
+      "blogOne.blogTitle5": "Nova’s Impact",
+      "blogOne.blogDescription5":
+        "Nova supports caregivers in understanding children's needs, improving school readiness, interrupting poverty cycles, and building stronger communities. By empowering caregivers, Nova makes early childhood development a shared, achievable journey.",
+      "blogTwo.blogTitle":
+        "A Day of Learning, Connection & Awareness: Celebrating Every Child's Journeyia",
+      "blogTwo.blogDescription":
+        "On April 12th, 2025, something truly meaningful unfolded. Nova Kids, in collaboration with ICAN Academy and IVY Childcare & Therapy, hosted a heartfelt workshop for parents, caregivers, and early childhood experts. The event brought together learning, connection, and compassion—centered around supporting children in their earliest and most formative years. In honor of World Autism Acceptance Month, the gathering created a safe, inclusive space where love, empathy, and curiosity came together for one important cause: helping every child thrive. One of the most impactful sessions was led by Dr. Yohannes, who broke down the science behind autism, and helped attendees understand the difference between autism and intellectual disability. He gently guided us through the common characteristics many children under the autism spectrum share, helping caregivers observe with more clarity, not fear. Together, we explored the insightful book “Ten Things Every Child with Autism Wishes You Knew.” With Ms. Hermal’s guidance, the message rang clear: children with autism are different, not less. Just like every child, they bring their own way of seeing and experiencing the world—something to understand and embrace, not to fix. For Nova Kids, this workshop was a beautiful reflection of our mission: to equip families with the tools, knowledge, and connection they need to nurture their children—whether through our milestone tracker, curated toy kits, or events like this that bring us all closer. As we continue to honor Autism Acceptance Month, we carry with us the insight and warmth from this day. Every child deserves to be understood, supported, and celebrated for who they are. And every caregiver deserves to feel confident and equipped in their journey. To everyone who joined us—thank you. Your presence, your questions, your willingness to learn—it all matters. This is just the beginning of many more shared moments of growth, joy, and love.",
     },
     am: {
       // Navigation
@@ -278,6 +319,43 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       "navigation.blog": "ብሎግ",
       "navigation.joinCommunity": "ማህበረሰብ ይቀላቀሉ",
       "navigation.botJoin": "ቴሌግራም ቦት",
+
+      //blog items
+      "blog.ourBlogO": "𝓞",
+      "blog.ourBlogB": "𝓑",
+      "blog.ourBlogUR": "ur",
+      "blog.ourBlogLOG": "logs",
+      "blog.blogTitle1": "ለምን ኖቫ አስፈላጊ ነው፡ በኢትዮጵያ ውስጥ ያለ የልጅነት እድገትን መደገፍ",
+      "blog.blogDescription1":
+        "ኖቫ ተንከባካቢዎችን በትክክለኛ መሳሪያዎች፣ ግንዛቤ እና ድጋፍ በማስታጠቅ የልጅነት እድገትን በኢትዮጵያ እንዴት እየለወጠ ነው።",
+      "blog.blogTitle2": "የእያንዳንዱን ልጅ ጉዞ ማክበር፡ የኦቲዝም ግንዛቤ አውደ ጥናት",
+      "blog.blogDescription2":
+        "በኖቫ ኪድስ እና አጋሮች የሚስተናገደው የኦቲዝም ተቀባይነት ወርን ለማክበር ኃይለኛ የትምህርት፣ የፍቅር እና የግንኙነት ቀን።",
+      "blogOne.blogHeader": "ምን ኖቫ አስፈላጊ ነው፡ በኢትዮጵያ ውስጥ ያለ የልጅነት እድገትን መደገፍ",
+      "blogOne.blogTitle1": "መግቢያ",
+      "blogOne.blogDescription1":
+        "የቅድመ ልጅነት እድገት (ኢሲዲ) የዕድሜ ልክ ጤናን፣ ትምህርት እና ደህንነትን መሰረት ይጥላል...",
+      "blogOne.blogTitle2": "ለኖቫ አስቸኳይ ፍላጎት",
+      "blogOne.blogDescription2":
+        "የሕፃኑ ህይወት የመጀመሪያዎቹ ዓመታት ወሳኝ ናቸው. ሳይንስ እንደሚያሳየው የህጻናት አእምሮ በፍጥነት...",
+      "blogOne.blogTitle3": "የኖቫ አድራሻዎች ቁልፍ ተግዳሮቶች",
+      "blogOne.blogDescriptionPoint":
+        "የዕድገት መሳሪያዎች ተደራሽነት እጦት፡- ብዙ ቤተሰቦች ከእድሜ ጋር የሚስማሙ አሻንጉሊቶችን፣ መጽሃፎችን ወይም መመሪያዎችን ማግኘት አይችሉም።",
+      "blogOne.blogDescriptionPoint1":
+        "የዕድገት ደረጃዎች ዝቅተኛ ግንዛቤ፡ ተንከባካቢዎች ብዙውን ጊዜ እድገትን ለመከታተል እና ቀደምት መዘግየቶችን ለመለየት ዕውቀት ይጎድላቸዋል።",
+      "blogOne.blogDescriptionPoint2":
+        "ውሱን የሥልጠና እድሎች፡- ተደራሽ፣ ከባህል ጋር ተዛማጅነት ያለው ሥልጠና አጭር ነው።",
+      "blogOne.blogDescriptionPoint3":
+        "ማግለል፡- ብዙ ተንከባካቢዎች ያለ ድጋፍ መረቦች ብቻ እነዚህን ችግሮች ይጋፈጣሉ።",
+      "blogOne.blogTitle4": "ለምን ኖቫ የተለየ ነው?",
+      "blogOne.blogDescription4":
+        "ብሄራዊ ፖሊሲዎች እና ፕሮግራሞች ቢኖሩም ኖቫ እነዚህን ጥረቶች በቴክ እና በአካባቢያዊ ግንዛቤ በመጠቀም ችላ የተባሉ ቤተሰቦችን ያሟላል።",
+      "blogOne.blogTitle5": "የኖቫ ተፅእኖ",
+      "blogOne.blogDescription5":
+        "ኖቫ ተንከባካቢዎችን የልጆችን ፍላጎት ለመረዳት፣ የትምህርት ቤት ዝግጁነትን ለማሻሻል፣ የድህነት ዑደቶችን በማቋረጥ እና ጠንካራ ማህበረሰቦችን በመገንባት ይደግፋል። ተንከባካቢዎችን በማብቃት፣ ኖቫ የልጅነት ጊዜ እድገትን የጋራ፣ ሊደረስበት የሚችል ጉዞ ያደርገዋል።",
+      "blogTwo.blogTitle": "የትምህርት፣ የግንኙነት እና የግንዛቤ ቀን፡ የእያንዳንዱን ልጅ ጉዞ ማክበር",
+      "blogTwo.blogDescription":
+        "በኤፕሪል 12፣ 2025፣ በእውነት ትርጉም ያለው ነገር ታየ። Nova Kids ከ ICAN Academy እና IVY Childcare & Therapy ጋር በመተባበር ለወላጆች፣ ለአሳዳጊዎች እና ለቅድመ ልጅነት ባለሙያዎች ልባዊ አውደ ጥናት አዘጋጅቷል። ክስተቱ መማርን፣ ግንኙነትን እና ርህራሄን ሰብስቧል—በመጀመሪያዎቹ እና በጣም የበለጸጉ አመታት ልጆችን በመደገፍ ላይ ያተኮረ። ለአለም ኦቲዝም ተቀባይነት ወርን ምክንያት በማድረግ፣ ስብሰባው ደህንነቱ የተጠበቀ እና አካታች ቦታን ፈጠረ፣ ፍቅር፣ መተሳሰብ እና የማወቅ ጉጉት ለአንድ አስፈላጊ ምክንያት አንድ ላይ ተሰባስበው እያንዳንዱ ልጅ እንዲዳብር መርዳት። በጣም ተፅዕኖ ካደረጉት ክፍለ-ጊዜዎች አንዱ በዶ/ር ዮሃንስ የተመራ ሲሆን ከኦቲዝም ጀርባ ያለውን ሳይንስ በማፍረስ ተሰብሳቢዎች በኦቲዝም እና በአእምሮ እክል መካከል ያለውን ልዩነት እንዲገነዘቡ ረድቷቸዋል። ብዙ በኦቲዝም ስፔክትረም ስር ባሉ የጋራ ባህሪያት ተንከባካቢዎች በፍርሃት ሳይሆን በግልፅ እንዲመለከቱ በመርዳት በእርጋታ መራን። አብረን፣ “ከኦቲዝም ምኞቶች ጋር ያለ ልጅ ሁሉ የምታውቋቸው አሥር ነገሮች” የሚለውን አስተዋይ መጽሐፍ መርምረናል። በወይዘሮ ሄርማል መመሪያ፣ መልእክቱ ግልጽ ሆኖ ነበር፡ ኦቲዝም ያለባቸው ልጆች የተለዩ እንጂ ያነሱ አይደሉም። ልክ እንደ እያንዳንዱ ልጅ ዓለምን ለማየት እና ለመለማመድ የራሳቸውን መንገድ ያመጣሉ - ሊረዱት እና ሊቀበሉት የሚገባ, ለመጠገን አይደለም. ለኖቫ ኪድስ፣ ይህ አውደ ጥናት የተልእኮአችን ቆንጆ ነጸብራቅ ነበር፡ ቤተሰቦች ልጆቻቸውን ለመንከባከብ የሚያስፈልጋቸውን መሳሪያዎች፣ እውቀት እና ግንኙነት ለማስታጠቅ—በእኛ ማይስተን ስታን መከታተያ፣ በተመረጡ የአሻንጉሊት እቃዎች ወይም እንደዚህ ባሉ ክስተቶች ሁላችንንም የሚያቀርቡልን። የኦቲዝም መቀበያ ወርን ማክበር ስንቀጥል፣ከዚህ ቀን ጀምሮ ያለውን ግንዛቤ እና ሙቀት ከእኛ ጋር ይዘናል። እያንዳንዱ ልጅ ስለ ማንነቱ ሊረዳ፣ ሊደገፍ እና ሊከበር ይገባዋል። እና እያንዳንዱ ተንከባካቢ በጉዟቸው ውስጥ በራስ የመተማመን እና የታጠቁ ሊሰማቸው ይገባል። ከእኛ ጋር ለተቀላቀሉት ሁሉ - አመሰግናለሁ። የአንተ መኖር፣ ጥያቄዎችህ፣ ለመማር ፈቃደኛነትህ - ሁሉም አስፈላጊ ነው። ይህ የብዙ የጋራ የእድገት፣ የደስታ እና የፍቅር ጊዜያት መጀመሪያ ነው።",
     },
   };
 

@@ -164,5 +164,35 @@
   "language": {
     "en": "English",
     "am": "አማርኛ"
+  },
+  "blog": {
+    "ourBlogO": "𝓞",
+    "ourBlogB": "𝓑",
+    "ourBlogUR": "ur",
+    "ourBlogLOG": "logs",
+    "blogTitle1": "Why Nova Matters: Supporting Early Childhood Development in Ethiopia",
+    "blogDescription1": "How Nova is transforming early childhood development in Ethiopia by equipping caregivers with the right tools, insight, and support.",
+    "blogTitle2": "Celebrating Every Child's Journey: Autism Awareness Workshop",
+    "blogDescription2": "A powerful day of learning, love, and connection in honor of Autism Acceptance Month hosted by Nova Kids and partners."
+  },
+  "blogOne": {
+    "blogHeader": "Why Nova Matters: Supporting Early Childhood Development in Ethiopia",
+    "blogTitle1": "Introduction",
+    "blogDescription1": "Early Childhood Development (ECD) lays the foundation for lifelong health, learning, and well-being...",
+    "blogTitle2": "The Urgent Need for Nova",
+    "blogDescription2": " The early years of a child’s life are crucial. Science shows that a child’s brain develops most rapidly...",
+    "blogTitle3": "Key Challenges Nova Addresses",
+    "blogDescriptionPoint": "Lack of Access to Developmental Tools: Many families don’t have access to age-appropriate toys, books, or guidance.",
+    "blogDescriptionPoint1": "Low Awareness of Developmental Milestones: Caregivers often lack the knowledge to track progress and detect early delays.",
+    "blogDescriptionPoint2": "Limited Training Opportunities: Accessible, culturally relevant training is in short supply.",
+    "blogDescriptionPoint3": "Isolation: Many caregivers face these challenges alone without support networks.",
+    "blogTitle4": "Why Nova is Different",
+    "blogDescription4": "While national policies and programs exist, Nova complements these efforts using tech and local insight to reach families otherwise overlooked.",
+    "blogTitle5": "Nova’s Impact",
+    "blogDescription5": "Nova supports caregivers in understanding children's needs, improving school readiness, interrupting poverty cycles, and building stronger communities. By empowering caregivers, Nova makes early childhood development a shared, achievable journey."
+  },
+  "blogTwo": {
+    "blogTitle": "A Day of Learning, Connection & Awareness: Celebrating Every Child's Journeyia",
+    "blogDescription": "On April 12th, 2025, something truly meaningful unfolded. Nova Kids, in collaboration with ICAN Academy and IVY Childcare & Therapy, hosted a heartfelt workshop for parents, caregivers, and early childhood experts. The event brought together learning, connection, and compassion—centered around supporting children in their earliest and most formative years. In honor of World Autism Acceptance Month, the gathering created a safe, inclusive space where love, empathy, and curiosity came together for one important cause: helping every child thrive. One of the most impactful sessions was led by Dr. Yohannes, who broke down the science behind autism, and helped attendees understand the difference between autism and intellectual disability. He gently guided us through the common characteristics many children under the autism spectrum share, helping caregivers observe with more clarity, not fear. Together, we explored the insightful book “Ten Things Every Child with Autism Wishes You Knew.” With Ms. Hermal’s guidance, the message rang clear: children with autism are different, not less. Just like every child, they bring their own way of seeing and experiencing the world—something to understand and embrace, not to fix. For Nova Kids, this workshop was a beautiful reflection of our mission: to equip families with the tools, knowledge, and connection they need to nurture their children—whether through our milestone tracker, curated toy kits, or events like this that bring us all closer. As we continue to honor Autism Acceptance Month, we carry with us the insight and warmth from this day. Every child deserves to be understood, supported, and celebrated for who they are. And every caregiver deserves to feel confident and equipped in their journey. To everyone who joined us—thank you. Your presence, your questions, your willingness to learn—it all matters. This is just the beginning of many more shared moments of growth, joy, and love."
   }
 }

@@ -112,7 +112,6 @@ export default function Navigation() {
                   {item.name}
                 </Link>
               ))}
-              <Link href="/blog">Blog</Link>
               <div className="px-3 py-2">
                 {/* <Button className="w-full bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-amber-500 hover:to-yellow-600 text-white font-medium"> */}
                 <a

@@ -1,56 +1,31 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/language-context";
+import blogImage from "@/assests/blog1.jpg";
 
 const page = () => {
+  const { t } = useLanguage();
   return (
-    <div className=" flex p-20 gap-28 bg-gradient-to-br from-blue-50 via-amber-50 to-indigo-50">
-      <Image src="/blog1.jpg" alt="Smilling kids" width={600} height={200} />
+    <div className=" lg:flex py-20 px-10 md:px-10 gap-28 bg-gradient-to-br from-blue-50 via-amber-50 to-indigo-50">
+      <Image src="blog1.jpg" alt="Smiling kids" width={500} height={500} />
       <div className="flex flex-col gap-5">
-        <h1 className="font-bold text-3xl">
-          Why Nova Matters: Supporting Early Childhood Development in Ethiopia
-        </h1>
-        <p className="font-bold text-lg">Introduction</p>
-        <p className="text-gray-600">
-          Early Childhood Development (ECD) lays the foundation for lifelong
-          health, learning, and well-being...
-        </p>
-        <p className="font-bold text-lg">The Urgent Need for Nova</p>
-        <p className="text-gray-600">
-          The early years of a child’s life are crucial. Science shows that a
-          child’s brain develops most rapidly...
-        </p>
-        <p className="font-bold text-lg"> Key Challenges Nova Addresses</p>
+        <h1 className="font-bold text-3xl">{t("blogOne.blogHeader")}</h1>
+        <p className="font-bold text-lg">{t("blogOne.blogTitle1")}</p>
+        <p className="text-gray-600">{t("blogOne.blogDescription1")}</p>
+        <p className="font-bold text-lg">{t("blogOne.blogTitle2")}</p>
+        <p className="text-gray-600">{t("blogOne.blogDescription2")}</p>
+        <p className="font-bold text-lg"> {t("blogOne.blogTitle3")}</p>
         <ul className="text-gray-600 list-disc">
-          <li>
-            Lack of Access to Developmental Tools: Many families don’t have
-            access to age-appropriate toys, books, or guidance.
-          </li>
-          <li>
-            Low Awareness of Developmental Milestones: Caregivers often lack the
-            knowledge to track progress and detect early delays.
-          </li>
-          <li>
-            Limited Training Opportunities: Accessible, culturally relevant
-            training is in short supply.
-          </li>
-          <li>
-            Isolation: Many caregivers face these challenges alone without
-            support networks.
-          </li>
+          <li>{t("blogOne.blogDescriptionPoint")}</li>
+          <li>{t("blogOne.blogDescriptionPoint1")}</li>
+          <li>{t("blogOne.blogDescriptionPoint2")}</li>
+          <li>{t("blogOne.blogDescriptionPoint3")}</li>
         </ul>
-        <p className="font-bold text-lg">Why Nova is Different</p>
-        <p className="text-gray-600">
-          While national policies and programs exist, Nova complements these
-          efforts using tech and local insight to reach families otherwise
-          overlooked.
-        </p>
-        <p className="font-bold text-lg">Nova’s Impact</p>
-        <p className="text-gray-600">
-          Nova supports caregivers in understanding children's needs, improving
-          school readiness, interrupting poverty cycles, and building stronger
-          communities. By empowering caregivers, Nova makes early childhood
-          development a shared, achievable journey.
-        </p>
+        <p className="font-bold text-lg">{t("blogOne.blogTitle4")}</p>
+        <p className="text-gray-600">{t("blogOne.blogDescription4")}</p>
+        <p className="font-bold text-lg">{t("blogOne.blogTitle5")}</p>
+        <p className="text-gray-600">{t("blogOne.blogDescription5")}</p>
       </div>
     </div>
   );
